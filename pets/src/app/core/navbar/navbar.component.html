@@ -1,0 +1,11 @@
+<!-- *ngFor=" let pet of pets" -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand">Glavna</a>
+  <div *ngFor="let pet of petstype">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link">{{ pet.name }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
